@@ -12,7 +12,7 @@ function start(){
         }
         document.getElementById('counterCount').innerHTML= `${min}:${sec}`;
         sec--;
-        if(min ==0 && sec == 0){
+        if(min == 0 && sec == 0){
             stop();
             document.getElementById('counterCount').innerHTML = 'Woohoo 🎉';
         }
