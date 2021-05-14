@@ -14,7 +14,7 @@ function start(){
         sec--;
         if(min == 0 && sec == 0){
             stop();
-            document.getElementById('counterCount').innerHTML = 'Woohoo 🎉';
+            document.getElementById('counterCount').innerHTML = '🎉';
         }
     }, 1000);
 }
